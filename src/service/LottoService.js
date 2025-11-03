@@ -1,5 +1,5 @@
 import { Random } from "@woowacourse/mission-utils";
-import Lotto from "../domain/Lotto.js";
+import Lotto from "../Lotto.js";
 import { MIN, MAX, PICK_COUNT, PRICE, PRIZE } from "../core/constants.js";
 
 const sortAsc = (arr) => [...arr].sort((a, b) => a - b);
